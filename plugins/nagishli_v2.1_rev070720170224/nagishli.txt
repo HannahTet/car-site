@@ -1,0 +1,68 @@
+This is the general installation code for NagishLi:
+
+
+<script>
+nl_lang = "he";
+nl_pos = "tl";
+nl_link = "0";
+nl_search = "1";
+</script>
+<script type="text/javascript" charset="utf-8" src="path/to/nagishli.js" defer></script>
+
+
+
+Before you can start using NagishLi, you will need to know how to use features likes extracting archives and uploading files via FTP. path/to/nagishli.js represents the path of the plugin file in your webserver.
+For example, if your webserver address is http://www.mywebsite.com, and you've uploaded the plugin in a folder named "plugins", to avoid problems with the plugin file. In this case, the last line of the code will look like this: <script type="text/javascript" charset="utf-8" src="http://www.mywebsite.com/plugins/nagishli.js"></script>
+
+After installing, NagishLi have a few settings you can change.
+
+nl_lang - represents the display language. 
+The current options are:
+
+
+he Hebrew (default)
+en English
+Example: nl_lang = "en"; 
+
+nl_pos - represents the position of the plugin on the screen.
+
+
+ Note: This is only an initial setting and can be changed by the user.
+The current options are:
+
+
+
+tl Top left (default)
+bl Bottom left
+tr Top right
+br Bottom right
+Example: nl_pos = "tr"; 
+
+nl_link - represents the accessibility statement of your website. 
+The options are:
+
+0 or undefined The plugin will use a built-in pre-made statement (default).
+Link (Example: http:///www.mywebsite.com/accessibility.html) the plugin will open this link in a new window.
+Example: nl_link = "http://www.localize.co.il/nagishli/accessibility.html"; 
+
+nl_search - represents an option to use Google Search on your website.
+
+ Note: Due to Google's change of policy, this setting is removed in NagishLi v2.1. If you're using it for your website, you can remove the setting from NagishLi's installation code.
+
+nl_color - represents the color of the plugin. 
+The options are:
+
+blue or undefined - Blue (default)
+red - Red
+green - Green
+purple - Purple
+yellow - Yellow
+pink - Pink
+gray - Gray
+brown - Brown
+orange - Orange
+turquoise - Turquoise
+Example: nl_color = "orange"; 
+
+nl_lic - represents the license of the plugin. 
+The current license doesn't allow to make ANY changes to the plugin. Credits removal license also allows to change it's appearance.

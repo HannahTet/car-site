@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+ #access {
+	background-color: #9E9E9E!important;
+	margin-left: 10px;
+}
+.mycrumb {
+	margin-bottom: 0;
+	padding-left: 120px;
+}
+.mynav {
+	background-color: transparent;
+	border-color: transparent;
+	margin-top: 20px;
+}.nav.navbar-nav.navbar-right.mylinks li a {
+	font-size: 17px;
+	color: #000000;
+}
+.container-fluid .navbar-header .navbar-brand.my_logo {
+	padding: 0 0 10px 0;
+	height: auto;
+}
+.nav.navbar-nav.navbar-right.mylinks li a:hover {
+	background-color: #d8ce27;
+	border-radius: 8px;
+}
+.row .col-lg-6 .jumbotron.mybox {
+	margin-top: 10px;
+	padding: 30px;
+	border: 1px solid #9E9E9E;
+	border-radius: 0px;
+	background-color: transparent;
+}
+.col-lg-6 .jumbotron.mybox .myboxp {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+}
+.col-lg-6 .jumbotron.mybox h3 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	}
+.read {
+	color: #1A4FFB;
+	font-size: 14px;
+}
+.read:hover {
+	color: #9351B4;
+	text-decoration: none;
+}  
+.myread:hover {
+	color: #9351B4;
+	text-decoration: none;
+}
+.myread {
+	color: #1A4FFB;
+	font-size: 14px;
+	float: right;	
+}
+.top {
+	float: right;
+}
+.row.myrow {
+	clear: both;
+}
+.myicon {
+	font-size: 50px !important;
+	color: #d8ce27;
+	text-align: center;
+	display: block;
+}
+.myicon:hover {
+	color: #F4C96C;
+	text-decoration: none;
+}
+.container.myhatch {
+	margin-top: 10px;
+	padding: 20px;
+	border: 1px solid white;
+	border-radius: 0px;
+	background-color: transparent;
+}
+.container.myhatch h1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.container.myhatch .mytext {
+	margin-bottom: 50px;
+	padding-bottom: 0px;
+	text-align: left;
+	font-size: 16px;
+	line-height: 20px;
+}
+.container-fluid.myfooter {
+	margin: 80px 0 0 0;
+	background-color: #f5f5f5;
+}
+.navbar.navbar-default.mynav .container-fluid #defaultNavbar1 {
+	border-top: none;
+}
+.container-fluid.mymobslider {
+	display: none;
+}
+.container-fluid.myfooter .container.mycopy {
+	padding: 30px 0;
+	color: black;
+	font-size: 15px;
+	text-align: center;
+}
+
+/*=====START MODELS=======*/
+.models {
+	display: block;
+	width: 1200px;
+	height: 600px;
+	margin-top: 20px;
+}
+.models_bigpic {
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	} 
+#models_text {
+	float: left;
+	margin: 20px 0 15px 0;
+	text-align: justify;
+	font-size: 14px;
+}
+#models_smallpic img {
+	display: block;
+	float: left;
+	margin: 0 0 11px 11px;
+	opacity: 0.6;
+	cursor: pointer;
+}
+#models_smallpic img:hover {
+	opacity: 1;
+}
+/*=====STOP MODELS=======*/
+
+/*=====START MANUALS/TEST DRIVE=======*/
+.col-md-12 .jumbotron.myjumbotron, .col-lg-12 .jumbotron.myjumbotron {
+	margin-top: 10px;
+	padding: 30px;
+	border: 1px solid white;
+	border-radius: 0px;
+	background-color: transparent;
+}
+.col-md-12 .jumbotron.myjumbotron .myjp, .col-lg-12 .jumbotron.myjumbotron .myjp {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+}
+.col-md-12 .jumbotron.myjumbotron h3, .col-lg-12 .jumbotron.myjumbotron h3 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+/*=====STOP MANUALS/TEST DRIVE=======*/
+
+/*=====START CONTACTS=======*/
+.highlight {
+	margin: 50px 0 40px 0;
+	text-align: center;
+	color: black;
+	font-size: 32px; 
+}
+.contact-form {
+	display: block;
+	padding: 15px;
+	padding-bottom: 0px;
+}
+.form-text {
+	color: #6A6767;
+	float: left;
+	margin: 5px 3px 5px 400px;
+	font-size: 22px;
+	clear: both;
+}
+.form-space {
+	float: left;
+	margin: 7px 0 10px 15px;
+	text-align: center;
+}
+.form-space.mymail {
+	margin-left: 63px;
+}
+.form-space input {
+	width: 270px;
+	height: 40px;
+	color: black;
+}
+.form-red {
+	color: red;
+	font-weight: bold;
+}
+.form-space textarea {
+	width: 270px;
+	height: 110px;
+	color: black;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+input:focus, textarea:focus {
+	background-color: #F0EFEB;
+	border: 2px #5CE0D6 solid;
+}
+.form-buttons {
+	clear: both;
+	margin: 60px 10px 30px 5px;
+	text-align: center;
+}
+.form-buttons input {
+	color: #6A6767;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 13px 25px;
+	border-radius: 7px;
+	cursor: pointer;
+	background: #d8ce27;
+}
+.form-buttons input:hover {
+	background:#F4C96C;
+}
+
+	/*=====STOP CONTACTS=======*/
+	
+/*=====mobile version=====*/	
+	@media (max-width: 800px)  {
+	.mycrumb {
+		padding-left: 70px;
+	}
+	#carousel1 {
+		display: none;
+	}
+	.container-fluid.mymobslider {
+		display: block;
+	}
+	.container-fluid.mymobslider img {
+		width: 100%;
+		height: 100%;
+	}
+	#models_text {
+		clear: both;
+		width: auto;
+		height: auto;
+		text-align: justify;
+		font-size: 14px;
+	}
+	.container-fluid.myfooter p{
+		text-align: center;
+	}
+    #bigpic {
+		width: 100%;
+		height: 100%;
+	}
+	.models {
+		width: 100%;
+		height: 100%;
+	}	
+	.models_bigpic {
+		width: 100%;
+		height: 100%;
+		margin: 5px 5;
+	}
+	.form-text {
+		margin-left: 40px;
+	}
+   .form-space input, .form-space textarea {
+		width: 100%;
+	    margin-left: 15px;
+	}
+	.form-space.mymail {
+		margin-left: 15px;
+	}
+}
+
+	 
+
+
